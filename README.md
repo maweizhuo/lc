@@ -11,3 +11,6 @@ PHP+go
 |217.存在重复元素| [php](./php/217.php)| [go](./go/217.go) |
 |136.只出现一次的数字| [php](./php/136.php)| [go](./go/136.go) |
 |350.两个数组的交集| [php](./php/350.php)| [go](./go/350.go) |
+|66.加一| [php](./php/66.php)| [go](./go/66.go) |
+|283.移动零| [php](./php/283.php)| [go](./go/283.go) |
+|1.两数之和| [php](./php/1.php)| [go](./go/1.go) |
