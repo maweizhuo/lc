@@ -25,3 +25,7 @@ PHP+go
 |387.字符串中的第一个唯一字符| [php](./php/387.php)| [go](./go/387.go) |
 |242.有效的字母异位词| [php](./php/242.php)| [go](./go/242.go) |
 |125.验证回文串| [php](./php/125.php)| [go](./go/125.go) |
+|8.字符串转换整数| [php](./php/8.php)| [go](./go/8.go) |
+|28.实现strStr| [php](./php/28.php)| [go](./go/28.go) |
+|38.外观数列| [php](./php/38.php)| [go](./go/38.go) |
+|28.最长公共前缀| [php](./php/28.php)| [go](./go/28.go) |
