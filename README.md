@@ -28,4 +28,10 @@ PHP+go
 |8.字符串转换整数| [php](./php/8.php)| [go](./go/8.go) |
 |28.实现strStr| [php](./php/28.php)| [go](./go/28.go) |
 |38.外观数列| [php](./php/38.php)| [go](./go/38.go) |
-|28.最长公共前缀| [php](./php/28.php)| [go](./go/28.go) |
+|14.最长公共前缀| [php](./php/14.php)| [go](./go/14.go) |
+
+### 链表
+|题目|php|go|
+| ---|---|---|
+|237.删除链表中的节点| [php](./php/237.php)| [go](./go/237.go) |
+|19.删除链表的倒数第n个节点| [php](./php/19.php)| [go](./go/19.go) |
