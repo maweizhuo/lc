@@ -37,7 +37,34 @@ func check(p,q *TreeNode)bool{
   }
   return p.Val==q.Val && check(p.Left,q.Right) && check(p.Right,q.Left)
 }
-//迭代
-func isSymmetric(root *TreeNode) bool {
 
+//迭代
+//比较过程需要 逐层比较，可以使用 广度优先搜索（BFS） 解决，广度优先遍历可以借助 队列 来实现。
+//此处 两两入队，两两处队。
+func isSymmetric(root *TreeNode) bool {
+  if root ==nil{
+  	return true
+  }
+  return isMirror(root.Left,root.Right)
+}
+
+func isMirror(left,right *TreeNode) bool {
+  q:=[]*TreeNode{}
+  q=append(q,left,right)
+  for len(q)>0{
+  	n1,n2:=q[0],q[1]
+  	q=q[2:]
+  	if n1==nil && n2==nil{
+  		continue
+	}
+  	if n1==nil || n2==nil{
+  		return false
+	}
+  	if n1.Val !=n2.Val{
+  		return false
+	}
+  	q=append(q,n1.Left,n2.Right)
+  	q=append(q,n1.Right,n2.Left)
+  }
+  return true
 }
