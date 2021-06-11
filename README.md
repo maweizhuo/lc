@@ -65,3 +65,6 @@ PHP+go
 |746.使用最小花费爬楼梯| [php](./php/746.php)| [go](./go/746.go) |
 |121.买卖股票的最佳时机| [php](./php/121.php)| [go](./go/121.go) |
 |53.最大子序和| [php](./php/53.php)| [go](./go/53.go) |
+|198.打家劫舍| [php](./php/198.php)| [go](./go/198.go) |
+|213.打家劫舍II| [php](./php/213.php)| [go](./go/213.go) |
+|337.打家劫舍III| [php](./php/337.php)| [go](./go/337.go) |
