@@ -80,3 +80,6 @@ PHP+go
 | ---|---|---|
 |412.Fizz Buzz| [php](./php/412.php)| [go](./go/412.go) |
 |204.计数质数| [php](./php/204.php)| [go](./go/204.go) |
+|326.3的幂| [php](./php/326.php)| [go](./go/326.go) |
+|13.罗马数字转整数| [php](./php/13.php)| [go](./go/13.go) |
+|12.整数转罗马数字| [php](./php/12.php)| [go](./go/12.go) |
